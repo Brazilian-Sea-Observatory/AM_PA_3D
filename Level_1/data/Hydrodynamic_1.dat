@@ -1,0 +1,58 @@
+ADV_METHOD_H              : 4
+ADV_METHOD_V              : 4
+TVD_LIMIT_H               : 4
+TVD_LIMIT_V               : 4
+
+TIDE                      : 0
+TIDEPOTENTIAL             : 1
+POTENTIAL_ALGORITHM       : 1
+WATER_DISCHARGES          : 1
+
+CORIOLIS                  : 1
+
+DATA_ASSIMILATION         : 1
+BRFORCE                   : 1
+
+RADIATION                 : 2
+LOCAL_SOLUTION            : 3
+
+BAROCLINIC                : 1
+BAROCLINIC_POLIDEGREE     : 1 ! interpolacao linear . è melhor que outras interpolacoes
+
+RAMP                      : 1      
+RAMP_PERIOD               :86400.
+ !Start with baroclinic force null and only after a specific period specified (seconds) the total force is compute
+ !This keyword is only used in spin-up run, remove it to continued the calculus from the spin-up run
+
+FLATHER_COLD_PERIOD       : 86400.
+ !Allows the relaxation of water level solution for a period of time
+ !This keyword is only used in spin-up run, remove it to continued the calculus from the spin-up run 
+
+WIND                    : 2
+WIND_SMOOTH_PERIOD      : 86400.
+ !Start wind with a ramp period for wind forcing in order to allow a slowly adjustement 
+ !Both keywords are used only in the spin-up run
+ !Remove both keywords and include WIND: 1 to continued the calculus from the spin-up run
+
+ATM_PRESSURE              : 1
+ATM_PRESSURE_TYPE         : 1
+IMPOSE_INVERTED_BAROMETER : 0
+ATM_RAMP                  : 1
+ATM_PERIOD                : 86400.
+!Connect pressure forcing slowly for the prescribe period of time
+!ATM_PERIOD keyword is used only in te spin-up run, remove it to continued the calculus from the spin-up run
+
+BIHARMONIC                : 1
+BIHARMONIC_COEF           : 1e9
+
+!Start / Continuous Computation
+CONTINUOUS                : 0
+!SLOWSTART                 : 86400
+INITIAL_ELEVATION         : 0
+!INITIAL_ELEVATION_VALUE   : 2.1
+
+!Output Options
+TIME_SERIE                : 0
+TIME_SERIE_LOCATION       : ..\GeneralData\TimeSeriesLocation.dat
+OUTPUT_TIME              : 0  3600
+SURFACE_OUTPUT_TIME      : 0  900

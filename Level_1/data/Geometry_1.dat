@@ -1,0 +1,74 @@
+MINIMUMDEPTH      : 2.0
+
+REMOVE_LAND_BOTTOM_LAYERS : 1
+
+ <begindomain>
+ ID                : 1
+ TYPE              : CARTESIAN
+ DOMAINDEPTH       : 19.9400
+ LAYERS            : 38
+ MININITIALLAYERTHICKNESS : 0.05
+ MAX_THICKNESS_GRAD       : 2
+ 
+ <<beginlayers>>
+3.30
+3.93
+4.54
+5.44
+6.38
+7.68
+9.10
+10.98
+13.11
+15.83
+18.97
+22.90
+27.47
+33.08
+39.62
+47.51
+56.66
+67.51
+79.94
+94.36
+110.59
+128.94
+149.07
+171.13
+194.57
+219.35
+244.72
+270.50
+295.87
+320.64
+344.09
+366.14
+386.28
+404.68
+420.80
+435.34
+447.64
+458.63
+ <<endlayers>>
+ <enddomain>
+
+ <begindomain>
+ ID                : 2
+ TYPE              : SIGMA
+ DOMAINDEPTH       : -99.00
+ LAYERS            : 12
+<<beginlayers>>
+0.045
+0.055
+0.055
+0.065
+0.065
+0.075
+0.085
+0.095
+0.095
+0.105
+0.125
+0.135
+<<endlayers>>
+ <enddomain>

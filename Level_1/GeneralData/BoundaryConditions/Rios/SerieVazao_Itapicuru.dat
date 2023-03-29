@@ -1,0 +1,19 @@
+TIME_CYCLE : 1           
+SERIE_INITIAL_DATA : 2014 1 1 0 0 0            
+TIME_UNITS : MONTHS           
+NAME : Itapicuru(Geoglows)      
+    
+<BeginTimeSerie>             
+0 562.49384
+1 1275.0912
+2 2187.8386
+3 3013.344
+4 1864.13
+5 643.07336
+6 238.45264
+7 85.95543
+8 30.962816
+9 28.389835
+10 57.023495
+11 149.6797
+<EndTimeSerie>       

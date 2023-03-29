@@ -1,0 +1,204 @@
+
+C:\Aplica\AM_PA_3D\Level_1\exe>mpiexec -np 10 MOHIDWater_mpi.exe  1>Mohid.log 
+
+C:\Aplica\AM_PA_3D\Level_1\exe>DomainConsolidation
+ -------------------------- MOHID -------------------------
+ 
+       AUTHOR   : IST/MARETEC, Marine Modelling Group      
+       WWW      : http://www.mohid.com
+ 
+ 
+ Copyright (C) 1985, 1998, 2002, 2006.
+ Instituto Superior Tecnico, Technical University of Lisbon
+ -------------------------- MOHID -------------------------
+ 
+ Constructing DomainDecompositionConsolidation
+ Please Wait...
+ 
+ ..\res\Turbulence_2.hdf5
+ 
+ ..\res\Hydrodynamic_2.hdf5
+ 
+ ..\res\Hydrodynamic_2_Surface.hdf5
+ 
+ ..\res\Assimilation_2.hdf5
+ 
+ ..\res\WaterProperties_2.hdf5
+ 
+ ..\res\WaterProperties_2_Surface.hdf5
+ 
+ ..\res\Atmosphere_2.hdf5
+ 
+ ..\res\WaterProperties_2.fin5
+ 
+ ..\res\Hydrodynamic_2.fin
+ 
+ ..\res\GOTM_2.fin
+ 
+ -------------------------- MOHID -------------------------
+ 
+ Program MohidDDC successfully terminated
+ 
+ 
+ Total Elapsed Time     :        1081.21   0h 18min  1s
+
+ Total CPU time         :        1065.69
+
+ CPU usage (%)          :          98.56
+
+ 
+ ----------------------------------------------------------
+
+C:\Aplica\AM_PA_3D\Level_1\exe>mpiexec -np 10 MOHIDWater_mpi.exe  1>Mohid.log 
+
+C:\Aplica\AM_PA_3D\Level_1\exe>DomainConsolidation
+ -------------------------- MOHID -------------------------
+ 
+       AUTHOR   : IST/MARETEC, Marine Modelling Group      
+       WWW      : http://www.mohid.com
+ 
+ 
+ Copyright (C) 1985, 1998, 2002, 2006.
+ Instituto Superior Tecnico, Technical University of Lisbon
+ -------------------------- MOHID -------------------------
+ 
+ Constructing DomainDecompositionConsolidation
+ Please Wait...
+ 
+ ..\res\Turbulence_2.hdf5
+ 
+ ..\res\Hydrodynamic_2.hdf5
+ 
+ ..\res\Hydrodynamic_2_Surface.hdf5
+ 
+ ..\res\Assimilation_2.hdf5
+ 
+ ..\res\WaterProperties_2.hdf5
+ 
+ ..\res\WaterProperties_2_Surface.hdf5
+ 
+ ..\res\Atmosphere_2.hdf5
+ 
+ ..\res\WaterProperties_2.fin5
+ 
+ ..\res\Hydrodynamic_2.fin
+ 
+ ..\res\GOTM_2.fin
+ 
+ -------------------------- MOHID -------------------------
+ 
+ Program MohidDDC successfully terminated
+ 
+ 
+ Total Elapsed Time     :        1081.36   0h 18min  1s
+
+ Total CPU time         :        1066.12
+
+ CPU usage (%)          :          98.59
+
+ 
+ ----------------------------------------------------------
+
+C:\Aplica\AM_PA_3D\Level_1\exe>mpiexec -np 10 MOHIDWater_mpi.exe  1>Mohid.log 
+
+C:\Aplica\AM_PA_3D\Level_1\exe>DomainConsolidation
+ -------------------------- MOHID -------------------------
+ 
+       AUTHOR   : IST/MARETEC, Marine Modelling Group      
+       WWW      : http://www.mohid.com
+ 
+ 
+ Copyright (C) 1985, 1998, 2002, 2006.
+ Instituto Superior Tecnico, Technical University of Lisbon
+ -------------------------- MOHID -------------------------
+ 
+ Constructing DomainDecompositionConsolidation
+ Please Wait...
+ 
+ ..\res\Turbulence_2.hdf5
+ 
+ ..\res\Hydrodynamic_2.hdf5
+ 
+ ..\res\Hydrodynamic_2_Surface.hdf5
+ 
+ ..\res\Assimilation_2.hdf5
+ 
+ ..\res\WaterProperties_2.hdf5
+ 
+ ..\res\WaterProperties_2_Surface.hdf5
+ 
+ ..\res\Atmosphere_2.hdf5
+ 
+ ..\res\WaterProperties_2.fin5
+ 
+ ..\res\Hydrodynamic_2.fin
+ 
+ ..\res\GOTM_2.fin
+ 
+ -------------------------- MOHID -------------------------
+ 
+ Program MohidDDC successfully terminated
+ 
+ 
+ Total Elapsed Time     :        1074.78   0h 17min 54s
+
+ Total CPU time         :        1063.42
+
+ CPU usage (%)          :          98.94
+
+ 
+ ----------------------------------------------------------
+
+C:\Aplica\AM_PA_3D\Level_1\exe>mpiexec -np 10 MOHIDWater_mpi.exe  1>Mohid.log 
+
+C:\Aplica\AM_PA_3D\Level_1\exe>DomainConsolidation
+ -------------------------- MOHID -------------------------
+ 
+       AUTHOR   : IST/MARETEC, Marine Modelling Group      
+       WWW      : http://www.mohid.com
+ 
+ 
+ Copyright (C) 1985, 1998, 2002, 2006.
+ Instituto Superior Tecnico, Technical University of Lisbon
+ -------------------------- MOHID -------------------------
+ 
+ Constructing DomainDecompositionConsolidation
+ Please Wait...
+ 
+ ..\res\Turbulence_2.hdf5
+ 
+ ..\res\Hydrodynamic_2.hdf5
+ 
+ ..\res\Hydrodynamic_2_Surface.hdf5
+ 
+ ..\res\Assimilation_2.hdf5
+ 
+ ..\res\WaterProperties_2.hdf5
+ 
+ ..\res\WaterProperties_2_Surface.hdf5
+ 
+ ..\res\Atmosphere_2.hdf5
+ 
+ ..\res\WaterProperties_2.fin5
+ 
+ ..\res\Hydrodynamic_2.fin
+ 
+ ..\res\GOTM_2.fin
+ 
+ -------------------------- MOHID -------------------------
+ 
+ Program MohidDDC successfully terminated
+ 
+ 
+ Total Elapsed Time     :        1082.44   0h 18min  2s
+
+ Total CPU time         :        1061.64
+
+ CPU usage (%)          :          98.08
+
+ 
+ ----------------------------------------------------------
+Get meteo from: D:\WRF_INPE\Backup//20230328_20230329//wrf.hdf5
+Get meteo from: D:\WRF_INPE\Backup//20230329_20230330//wrf.hdf5
+Get meteo from: D:\WRF_INPE\Backup//20230330_20230331//wrf.hdf5
+Get meteo from: D:\WRF_INPE\Backup//20230331_20230401//wrf.hdf5

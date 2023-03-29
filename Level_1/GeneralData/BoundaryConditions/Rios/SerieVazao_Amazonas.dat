@@ -1,0 +1,19 @@
+TIME_CYCLE : 1             
+SERIE_INITIAL_DATA : 2014 1 1 0 0 0              
+TIME_UNITS : MONTHS             
+NAME : ÓBIDOS(17050001)         
+      
+<BeginTimeSerie>               
+0 138818
+1 164379
+2 187823
+3 209492
+4 223785
+5 224203
+6 211762
+7 188253
+8 149885
+9 111128
+10 101485
+11 114089
+<EndTimeSerie>         

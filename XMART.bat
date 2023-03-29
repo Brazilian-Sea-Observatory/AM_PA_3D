@@ -1,0 +1,1 @@
+XMART.py > XMART.log

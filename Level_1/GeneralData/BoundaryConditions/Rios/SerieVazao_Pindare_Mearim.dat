@@ -1,0 +1,19 @@
+TIME_CYCLE : 1           
+SERIE_INITIAL_DATA : 2014 1 1 0 0 0            
+TIME_UNITS : MONTHS           
+NAME : Pindare_Mearim(Geoglows)      
+    
+<BeginTimeSerie>             
+0 1093.08526
+1 2511.4075
+2 3640.4524
+3 4660.8335
+4 3029.4726
+5 1127.35654
+6 488.76412
+7 222.440445
+8 103.11254
+9 72.063184
+10 92.490501
+11 329.60776
+<EndTimeSerie>       

@@ -1,0 +1,150 @@
+
+OUTPUT_TIME             : 0. 3600.
+!TIME_SERIE_LOCATION       : ..\General Data\Time Series\Maregrafos_Brasil_3D.dat
+
+<begin_rugosity>
+INITIALIZATION_METHOD        : CONSTANT
+DEFAULTVALUE                 : 0.0025
+<end_rugosity>
+
+WIND_MEASUREMENT_HEIGHT : 10.0
+AIR_MEASUREMENT_HEIGHT : 2.0
+
+<beginproperty>
+NAME                    : wind velocity
+UNITS                   : m/s
+DESCRIPTION             : wind velocity
+DEFAULTVALUE            : 0. 0.
+FILE_IN_TIME            : HDF
+FILENAME_X              : ../GeneralData/BoundaryConditions/meteo.hdf5
+FILENAME_Y              : ../GeneralData/BoundaryConditions/meteo.hdf5
+HDF_FIELD_NAME_X        : wind velocity X
+HDF_FIELD_NAME_Y        : wind velocity Y
+FIELD4D                 : 1
+SPATIAL_INTERPOL        : 1
+EXTRAPOLATE             : 1
+TIME_SERIE              : 0
+OUTPUT_HDF              : 1
+<endproperty>
+
+<beginproperty>
+NAME                    : solar radiation
+UNITS                   : W/m^2
+DESCRIPTION             : solar radiation
+FILE_IN_TIME            : HDF
+FILENAME                : ../GeneralData/BoundaryConditions/meteo.hdf5
+FIELD4D                 : 1
+SPATIAL_INTERPOL        : 1
+EXTRAPOLATE             : 1
+DEFAULTVALUE            : 0.
+TIME_SERIE              : 0
+OUTPUT_HDF              : 0
+<endproperty>
+
+<beginproperty>
+NAME                    : air temperature
+UNITS                   : degrees C
+DESCRIPTION             : Temperature
+DEFAULTVALUE            : 15.
+FILE_IN_TIME            : HDF
+FILENAME                : ../GeneralData/BoundaryConditions/meteo.hdf5
+FIELD4D                 : 1
+SPATIAL_INTERPOL        : 1
+EXTRAPOLATE             : 1
+TIME_SERIE              : 0
+OUTPUT_HDF              : 0
+<endproperty>
+
+<beginproperty>
+NAME                    : relative humidity
+UNITS                   : fraction
+DESCRIPTION             : Humidity
+DEFAULTVALUE            : 0.
+FILE_IN_TIME            : HDF
+FILENAME                : ../GeneralData/BoundaryConditions/meteo.hdf5
+FIELD4D                 : 1
+SPATIAL_INTERPOL        : 1
+EXTRAPOLATE             : 1
+TIME_SERIE              : 0
+OUTPUT_HDF              : 0
+<endproperty>
+
+
+<beginproperty>
+NAME                    : cloud cover
+UNITS                   : fraction
+DESCRIPTION             : cloud cover
+DEFAULTVALUE            : 0.
+FILE_IN_TIME            : HDF
+FILENAME                : ../GeneralData/BoundaryConditions/meteo.hdf5
+FIELD4D                 : 1
+SPATIAL_INTERPOL        : 1
+EXTRAPOLATE             : 1
+TIME_SERIE              : 0
+OUTPUT_HDF              : 0
+<endproperty>
+
+
+<beginproperty>
+NAME                    : atmospheric pressure
+UNITS                   : Pa
+DESCRIPTION             : Mean Sea Level Pressure
+DEFAULTVALUE            : 0.
+FILE_IN_TIME            : HDF
+FILENAME                : ../GeneralData/BoundaryConditions/meteo.hdf5
+FIELD4D                 : 1
+SPATIAL_INTERPOL        : 1
+EXTRAPOLATE             : 1
+OUTPUT_HDF              : 0
+TIME_SERIE              : 0
+<endproperty>
+
+<beginproperty>
+NAME                    : pbl height
+UNITS                   : m
+DESCRIPTION             : altura camada limite
+DEFAULTVALUE            : 600.
+FILE_IN_TIME            : HDF
+FILENAME                : ../GeneralData/BoundaryConditions/meteo.hdf5
+FIELD4D                 : 1
+SPATIAL_INTERPOL        : 1
+EXTRAPOLATE             : 1
+TIME_SERIE              : 0
+OUTPUT_HDF              : 0
+<endproperty>
+
+!<beginproperty>
+NAME                    : precipitation
+UNITS                   : mm
+DESCRIPTION             : precipitation
+DEFAULTVALUE            : 100000
+REMAIN_CONSTANT         : 0
+
+ACCUMULATE_VALUES       : 1
+INITIALIZATION_METHOD   : HDF
+FILE_IN_TIME            : HDF
+FILENAME                : ../GeneralData/BoundaryConditions/meteo.hdf5
+FIELD4D                 : 1
+SPATIAL_INTERPOL        : 1
+EXTRAPOLATE             : 1
+
+TIME_SERIE              : 0
+OUTPUT_HDF              : 0
+!<endproperty>
+
+
+<beginproperty>
+NAME                      : precipitation
+UNITS                     : mm/hour
+DESCRIPTION               : precipitation description
+FILE_IN_TIME              : HDF
+FIELD4D                   : 1
+SPATIAL_INTERPOL          : 1
+EXTRAPOLATE               : 1
+FILENAME                  : ../GeneralData/BoundaryConditions/meteo.hdf5
+USE_ORIGINAL_VALUES       : 1
+DEFAULTVALUE              : 0.
+REMAIN_CONSTANT           : 0
+TIME_SERIE                : 0
+OUTPUT_HDF                : 1
+<endproperty>

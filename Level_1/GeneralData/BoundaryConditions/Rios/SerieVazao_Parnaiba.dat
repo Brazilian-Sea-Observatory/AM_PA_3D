@@ -1,0 +1,19 @@
+TIME_CYCLE : 1           
+SERIE_INITIAL_DATA : 2014 1 1 0 0 0            
+TIME_UNITS : MONTHS           
+NAME : Parnaiba(Geoglows)      
+    
+<BeginTimeSerie>             
+0 2136.507
+1 4311.8823
+2 6106.879
+3 7590.267
+4 5045.3516
+5 1849.893
+6 774.7948
+7 340.7746
+8 139.23193
+9 102.53561
+10 307.17215
+11 822.67426
+<EndTimeSerie>       

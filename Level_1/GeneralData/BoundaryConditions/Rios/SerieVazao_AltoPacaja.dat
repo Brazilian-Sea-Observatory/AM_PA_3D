@@ -1,0 +1,20 @@
+TIME_CYCLE : 1             
+SERIE_INITIAL_DATA : 2014 1 1 0 0 0              
+TIME_UNITS : MONTHS             
+NAME : Rio Alto Pacaja 
+!Fonte Geoglows 
+
+<BeginTimeSerie>               
+0 995
+1 2002
+2 2826
+3 2757
+4 1721
+5 687
+6 277
+7 112
+8 51
+9 52
+10 107
+11 266
+<EndTimeSerie>  

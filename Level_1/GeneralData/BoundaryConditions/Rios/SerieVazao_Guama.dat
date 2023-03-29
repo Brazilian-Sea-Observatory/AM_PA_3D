@@ -1,0 +1,19 @@
+TIME_CYCLE : 1             
+SERIE_INITIAL_DATA : 2014 1 1 0 0 0              
+TIME_UNITS : MONTHS             
+NAME : BOM JARDIM(31520000)  
+   
+<BeginTimeSerie>               
+0 77
+1 147
+2 245
+3 307
+4 288
+5 185
+6 121
+7 81
+8 58
+9 43
+10 37
+11 40
+<EndTimeSerie>  

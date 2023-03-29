@@ -1,0 +1,19 @@
+TIME_CYCLE : 1                 
+SERIE_INITIAL_DATA : 2015 1 1 0 0 0                  
+TIME_UNITS : MONTHS                 
+NAME : UHE Belo Monte        
+!2020/2021
+<BeginTimeSerie>                   
+0 3615
+1 6570
+2 11210
+3 8576
+4 7497
+5 4197
+6 1411
+7 409
+8 318
+9 321
+10 1046
+11 2499
+<EndTimeSerie>  

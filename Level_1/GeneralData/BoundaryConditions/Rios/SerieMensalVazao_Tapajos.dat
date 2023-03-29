@@ -1,0 +1,19 @@
+TIME_CYCLE : 1              
+SERIE_INITIAL_DATA : 2014 1 1 0 0 0               
+TIME_UNITS : MONTHS              
+NAME : ITAITUBA(17730000)         
+       
+<BeginTimeSerie>                
+0 12470    
+1 21425    
+2 29509    
+3 28910    
+4 23520    
+5 18379    
+6 14189    
+7 9768    
+8 5278    
+9 2960    
+10 3786    
+11 6313    
+<EndTimeSerie>

@@ -1,0 +1,19 @@
+TIME_CYCLE : 1           
+SERIE_INITIAL_DATA : 2014 1 1 0 0 0            
+TIME_UNITS : MONTHS           
+NAME : Gurupi(Geoglows)      
+    
+<BeginTimeSerie>             
+0 436.76953
+1 1227.8954
+2 2001.8694
+3 2549.2195
+4 1786.1421
+5 654.7908
+6 274.58267
+7 118.93251
+8 57.021183
+9 28.49878
+10 28.854816
+11 93.10379
+<EndTimeSerie>       

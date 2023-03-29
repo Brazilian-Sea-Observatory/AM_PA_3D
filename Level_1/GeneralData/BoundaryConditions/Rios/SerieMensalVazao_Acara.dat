@@ -1,0 +1,19 @@
+TIME_CYCLE : 1              
+SERIE_INITIAL_DATA : 2014 1 1 0 0 0               
+TIME_UNITS : MONTHS              
+NAME : ACARA         
+       
+<BeginTimeSerie>                
+0 350    
+1 576    
+2 902    
+3 1054    
+4 822    
+5 370    
+6 208    
+7 150    
+8 126    
+9 113    
+10 123    
+11 159    
+<EndTimeSerie>

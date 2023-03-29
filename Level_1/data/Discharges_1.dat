@@ -1,0 +1,256 @@
+IGNORE_ON                 : 1
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+<begindischarge>
+NAME                      : Caudal Amazonas
+DESCRIPTION               : Average
+COORD_X                   : -55.5039
+COORD_Y                   : -1.936
+DISCHARGE_UNIFORM         : 1
+!DEFAULT_FLOW_VALUE        : 200000
+DATA_BASE_FILE            : ..\GeneralData\BoundaryConditions\Rios\SerieVazao_Amazonas.dat
+FLOW_COLUMN               : 2
+
+<<beginproperty>>
+NAME                      : temperature
+UNITS                     : degrees
+DESCRIPTION               : teste
+DEFAULTVALUE              : 28.
+<<endproperty>>
+
+<<beginproperty>>
+NAME                      : salinity
+UNITS                     : psu
+DESCRIPTION               : salinity in the river
+DEFAULTVALUE              : 0.
+<<endproperty>>
+<enddischarge>
+
+<begindischarge>
+NAME                      : Caudal Tapajos
+DESCRIPTION               : Average
+COORD_X                   : -54.7511
+COORD_Y                   : -2.4025
+DISCHARGE_UNIFORM         : 1
+!DEFAULT_FLOW_VALUE        : 200000
+DATA_BASE_FILE            : ..\GeneralData\BoundaryConditions\Rios\SerieMensalVazao_Tapajos.dat
+FLOW_COLUMN               : 2
+
+<<beginproperty>>
+NAME                      : temperature
+UNITS                     : degrees
+DESCRIPTION               : teste
+DEFAULTVALUE              : 28.
+<<endproperty>>
+
+<<beginproperty>>
+NAME                      : salinity
+UNITS                     : psu
+DESCRIPTION               : salinity in the river
+DEFAULTVALUE              : 0.
+<<endproperty>>
+<enddischarge>
+
+<begindischarge>
+NAME                      : Caudal Xingu_BeloMonte
+DESCRIPTION               : Average
+COORD_X                   : -51.7013
+COORD_Y                   : -3.1205
+DISCHARGE_UNIFORM         : 1
+!DEFAULT_FLOW_VALUE        : 3121
+
+DATA_BASE_FILE            : ..\GeneralData\BoundaryConditions\Rios\SerieVazao_Xingu(BeloMonte).dat
+FLOW_COLUMN               : 2
+
+<<beginproperty>>
+NAME                      : temperature
+UNITS                     : degrees
+DESCRIPTION               : teste
+DEFAULTVALUE              : 28.
+<<endproperty>>
+
+<<beginproperty>>
+NAME                      : salinity
+UNITS                     : psu
+DESCRIPTION               : salinity in the river
+DEFAULTVALUE              : 0.
+<<endproperty>>
+<enddischarge>
+
+<begindischarge>
+NAME                      : Caudal Xingu_Pimental
+DESCRIPTION               : Average
+COORD_X                   : -51.7013
+COORD_Y                   : -3.1205
+DISCHARGE_UNIFORM         : 1
+!DEFAULT_FLOW_VALUE        : 3951
+
+DATA_BASE_FILE            : ..\GeneralData\BoundaryConditions\Rios\SerieVazao_Xingu(Pimental).dat
+FLOW_COLUMN               : 2
+
+<<beginproperty>>
+NAME                      : temperature
+UNITS                     : degrees
+DESCRIPTION               : teste
+DEFAULTVALUE              : 28.
+<<endproperty>>
+
+<<beginproperty>>
+NAME                      : salinity
+UNITS                     : psu
+DESCRIPTION               : salinity in the river
+DEFAULTVALUE              : 0.
+<<endproperty>>
+<enddischarge>
+
+<begindischarge>
+NAME                      : Caudal Tocantins
+DESCRIPTION               : Average
+COORD_X                   : -49.653
+COORD_Y                   : -3.7727
+DISCHARGE_UNIFORM         : 1
+!DEFAULT_FLOW_VALUE        : 12000
+DATA_BASE_FILE            : ..\GeneralData\BoundaryConditions\Rios\SerieVazao_Tocantins.dat
+FLOW_COLUMN               : 2
+
+<<beginproperty>>
+NAME                      : temperature
+UNITS                     : degrees
+DESCRIPTION               : teste
+DEFAULTVALUE              : 28.
+<<endproperty>>
+
+<<beginproperty>>
+NAME                      : salinity
+UNITS                     : psu
+DESCRIPTION               : salinity in the river
+DEFAULTVALUE              : 0.
+<<endproperty>>
+<enddischarge>
+
+<begindischarge>
+NAME                      : Caudal Guama
+DESCRIPTION               : Average
+COORD_X                   : -47.7839
+COORD_Y                   : -1.6531
+DISCHARGE_UNIFORM         : 1
+!DEFAULT_FLOW_VALUE        : 150
+
+DATA_BASE_FILE            : ..\GeneralData\BoundaryConditions\Rios\SerieVazao_Guama.dat
+FLOW_COLUMN               : 2
+
+<<beginproperty>>
+NAME                      : temperature
+UNITS                     : degrees
+DESCRIPTION               : teste
+DEFAULTVALUE              : 28.
+<<endproperty>>
+
+<<beginproperty>>
+NAME                      : salinity
+UNITS                     : psu
+DESCRIPTION               : salinity in the river
+DEFAULTVALUE              : 0.
+<<endproperty>>
+<enddischarge>
+
+<begindischarge>
+NAME                      : Caudal Capim
+DESCRIPTION               : Average
+COORD_X                   : -47.7839
+COORD_Y                   : -1.6531
+DISCHARGE_UNIFORM         : 1
+!DEFAULT_FLOW_VALUE        : 100
+
+DATA_BASE_FILE            : ..\GeneralData\BoundaryConditions\Rios\SerieVazao_Capim.dat
+FLOW_COLUMN               : 2
+
+<<beginproperty>>
+NAME                      : temperature
+UNITS                     : degrees
+DESCRIPTION               : teste
+DEFAULTVALUE              : 28.
+<<endproperty>>
+
+<<beginproperty>>
+NAME                      : salinity
+UNITS                     : psu
+DESCRIPTION               : salinity in the river
+DEFAULTVALUE              : 0.
+<<endproperty>>
+<enddischarge>
+
+<begindischarge>
+NAME                      : Caudal Acara
+DESCRIPTION               : Average
+COORD_X                   : -48.218
+COORD_Y                   : -1.8856
+DISCHARGE_UNIFORM         : 1
+!DEFAULT_FLOW_VALUE        : 100
+DATA_BASE_FILE            : ..\GeneralData\BoundaryConditions\Rios\SerieMensalVazao_Acara.dat
+FLOW_COLUMN               : 2
+
+<<beginproperty>>
+NAME                      : temperature
+UNITS                     : degrees
+DESCRIPTION               : teste
+DEFAULTVALUE              : 28.
+<<endproperty>>
+
+<<beginproperty>>
+NAME                      : salinity
+UNITS                     : psu
+DESCRIPTION               : salinity in the river
+DEFAULTVALUE              : 0.
+<<endproperty>>
+<enddischarge>
+
+<begindischarge>
+NAME                      : Caudal Anapu
+DESCRIPTION               : Average
+COORD_X                   : -51.07
+COORD_Y                   : -1.8199
+DISCHARGE_UNIFORM         : 1
+!DEFAULT_FLOW_VALUE        : 100
+DATA_BASE_FILE            : ..\GeneralData\BoundaryConditions\Rios\SerieVazao_Anapu.dat
+FLOW_COLUMN               : 2
+
+<<beginproperty>>
+NAME                      : temperature
+UNITS                     : degrees
+DESCRIPTION               : teste
+DEFAULTVALUE              : 28.
+<<endproperty>>
+
+<<beginproperty>>
+NAME                      : salinity
+UNITS                     : psu
+DESCRIPTION               : salinity in the river
+DEFAULTVALUE              : 0.
+<<endproperty>>
+<enddischarge>
+
+
+<begindischarge>
+NAME                      : Caudal Alto Pacaja
+DESCRIPTION               : Average
+COORD_X                   : -50.8817
+COORD_Y                   : -2.4707
+DISCHARGE_UNIFORM         : 1
+!DEFAULT_FLOW_VALUE        : 100
+DATA_BASE_FILE            : ..\GeneralData\BoundaryConditions\Rios\SerieVazao_AltoPacaja.dat
+FLOW_COLUMN               : 2
+
+<<beginproperty>>
+NAME                      : temperature
+UNITS                     : degrees
+DESCRIPTION               : teste
+DEFAULTVALUE              : 28.
+<<endproperty>>
+
+<<beginproperty>>
+NAME                      : salinity
+UNITS                     : psu
+DESCRIPTION               : salinity in the river
+DEFAULTVALUE              : 0.
+<<endproperty>>
+<enddischarge>

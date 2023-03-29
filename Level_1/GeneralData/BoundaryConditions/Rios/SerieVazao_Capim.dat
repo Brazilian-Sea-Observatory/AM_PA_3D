@@ -1,0 +1,19 @@
+TIME_CYCLE : 1           
+SERIE_INITIAL_DATA : 2014 1 1 0 0 0            
+TIME_UNITS : MONTHS           
+NAME : BADAJÓS(31700000)      
+    
+<BeginTimeSerie>             
+0 464
+1 627
+2 832
+3 1008
+4 1019
+5 794
+6 593
+7 474
+8 401
+9 354
+10 338
+11 358
+<EndTimeSerie>       

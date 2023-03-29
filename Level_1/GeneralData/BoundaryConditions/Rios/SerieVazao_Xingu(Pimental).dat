@@ -1,0 +1,19 @@
+TIME_CYCLE : 1                       
+SERIE_INITIAL_DATA : 2015 1 1 0 0 0                        
+TIME_UNITS : MONTHS                       
+NAME : UHE Pimental              
+!2020/2021 
+<BeginTimeSerie>                         
+0 2130
+1 2700
+2 7654
+3 11946
+4 8574
+5 2331
+6 1241
+7 902
+8 753
+9 737
+10 906
+11 1090
+<EndTimeSerie>  
