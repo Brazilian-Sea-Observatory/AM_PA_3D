@@ -1,2 +1,2 @@
-mpiexec -np 10 MOHIDWater_mpi.exe > Mohid.log
+mpiexec -np 15 MOHIDWater_mpi.exe > Mohid.log
 DomainConsolidation

@@ -1,0 +1,5 @@
+PROJ4_STRING              : +proj=longlat +datum=WGS84 +no_defs
+<begin_line>
+-55.2231938990708 -2.13058619381286 NaN
+-55.223493181385 -2.17574591503983 NaN
+<end_line>

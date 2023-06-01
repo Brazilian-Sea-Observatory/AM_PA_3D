@@ -1,4 +1,6 @@
 IGNORE_ON                 : 1
+SLOW_START                : 432000
+
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 <begindischarge>
 NAME                      : Caudal Amazonas
@@ -6,6 +8,8 @@ DESCRIPTION               : Average
 COORD_X                   : -55.5039
 COORD_Y                   : -1.936
 DISCHARGE_UNIFORM         : 1
+SPATIAL_EMISSION          : Line
+SPATIAL_FILE              : ..\GeneralData\BoundaryConditions\Rios\Amazonas.lin
 !DEFAULT_FLOW_VALUE        : 200000
 DATA_BASE_FILE            : ..\GeneralData\BoundaryConditions\Rios\SerieVazao_Amazonas.dat
 FLOW_COLUMN               : 2
@@ -254,3 +258,102 @@ DESCRIPTION               : salinity in the river
 DEFAULTVALUE              : 0.
 <<endproperty>>
 <enddischarge>
+<begindischarge>
+NAME                      : Gurupi
+DESCRIPTION               : Average
+COORD_X                   : -46.1077
+COORD_Y                   : -1.1975
+DISCHARGE_UNIFORM         : 1
+!DEFAULT_FLOW_VALUE        : 100
+DATA_BASE_FILE            : ..\GeneralData\BoundaryConditions\Rios\SerieVazao_Gurupi.dat
+FLOW_COLUMN               : 2
+
+<<beginproperty>>
+NAME                      : temperature
+UNITS                     : degrees
+DESCRIPTION               : teste
+DEFAULTVALUE              : 28.
+<<endproperty>>
+
+<<beginproperty>>
+NAME                      : salinity
+UNITS                     : psu
+DESCRIPTION               : salinity in the river
+DEFAULTVALUE              : 0.
+<<endproperty>>
+<enddischarge>
+
+<begindischarge>
+NAME                      : Pindare_Mearim
+DESCRIPTION               : Average
+COORD_X                   : -44.7698
+COORD_Y                   : -3.3075
+DISCHARGE_UNIFORM         : 1
+!DEFAULT_FLOW_VALUE        : 100
+DATA_BASE_FILE            : ..\GeneralData\BoundaryConditions\Rios\SerieVazao_Pindare_Mearim.dat
+FLOW_COLUMN               : 2
+
+<<beginproperty>>
+NAME                      : temperature
+UNITS                     : degrees
+DESCRIPTION               : teste
+DEFAULTVALUE              : 28.
+<<endproperty>>
+
+<<beginproperty>>
+NAME                      : salinity
+UNITS                     : psu
+DESCRIPTION               : salinity in the river
+DEFAULTVALUE              : 0.
+<<endproperty>>
+<enddischarge>
+
+<begindischarge>
+NAME                      : Itapicuru
+DESCRIPTION               : Average
+COORD_X                   : -44.1703
+COORD_Y                   : -2.8217
+DISCHARGE_UNIFORM         : 1
+!DEFAULT_FLOW_VALUE        : 100
+DATA_BASE_FILE            : ..\GeneralData\BoundaryConditions\Rios\SerieVazao_Itapicuru.dat
+FLOW_COLUMN               : 2
+
+<<beginproperty>>
+NAME                      : temperature
+UNITS                     : degrees
+DESCRIPTION               : teste
+DEFAULTVALUE              : 28.
+<<endproperty>>
+
+<<beginproperty>>
+NAME                      : salinity
+UNITS                     : psu
+DESCRIPTION               : salinity in the river
+DEFAULTVALUE              : 0.
+<<endproperty>>
+<enddischarge>
+
+<begindischarge>
+NAME                      : Parnaiba
+DESCRIPTION               : Average
+COORD_X                   : -41.8534
+COORD_Y                   : -2.9064
+DISCHARGE_UNIFORM         : 1
+!DEFAULT_FLOW_VALUE        : 100
+DATA_BASE_FILE            : ..\GeneralData\BoundaryConditions\Rios\SerieVazao_Parnaiba.dat
+FLOW_COLUMN               : 2
+
+<<beginproperty>>
+NAME                      : temperature
+UNITS                     : degrees
+DESCRIPTION               : teste
+DEFAULTVALUE              : 28.
+<<endproperty>>
+
+<<beginproperty>>
+NAME                      : salinity
+UNITS                     : psu
+DESCRIPTION               : salinity in the river
+DEFAULTVALUE              : 0.
+<<endproperty>>
+<enddischarge>				

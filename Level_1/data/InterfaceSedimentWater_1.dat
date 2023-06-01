@@ -2,6 +2,6 @@
 
 <begin_rugosity>
 INITIALIZATION_METHOD     : ASCII_FILE
-FILENAME                  : ..\GeneralData\DigitalTerrain\AM_PA_GridData_average_ilhas_rugosity_Smoothed_v1.dat
+FILENAME                  : ..\GeneralData\DigitalTerrain\AM_PA_GridData_average_ilhas_rugosity_Smoothed_v2.dat
 DEFAULTVALUE              : 0.0025
 <end_rugosity>

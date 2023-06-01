@@ -16,11 +16,12 @@ UNITS                        : PSU
 DESCRIPTION                  : salinity
 PARTICULATE                  : 0
 
-INITIALIZATION_METHOD        : HDF
-FIELD4D                 : 1
-SPATIAL_INTERPOL        : 1
-EXTRAPOLATE             : 1
-FILENAME                     : ../GeneralData/BoundaryConditions/CMEMS_S_SE.hdf5
+!INITIALIZATION_METHOD        : HDF
+!FIELD4D                 : 1
+!SPATIAL_INTERPOL        : 1
+!EXTRAPOLATE             : 1
+!EXTRAPOLATE_METHOD      : 2
+!FILENAME                     : ../GeneralData/BoundaryConditions/CMEMS_S_SE.hdf5
 
 DEFAULTVALUE                 : 0.
 
@@ -46,11 +47,12 @@ UNITS                        : C
 DESCRIPTION                  : temperature
 PARTICULATE                  : 0
 
-INITIALIZATION_METHOD        : HDF
-FIELD4D                 : 1
-SPATIAL_INTERPOL        : 1
-EXTRAPOLATE             : 1
-FILENAME                     : ../GeneralData/BoundaryConditions/CMEMS_S_SE.hdf5
+!INITIALIZATION_METHOD        : HDF
+!FIELD4D                 : 1
+!SPATIAL_INTERPOL        : 1
+!EXTRAPOLATE             : 1
+!EXTRAPOLATE_METHOD      : 2
+!FILENAME                     : ../GeneralData/BoundaryConditions/CMEMS_S_SE.hdf5
 
 DEFAULTVALUE                 : 25.
 

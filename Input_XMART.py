@@ -2,11 +2,11 @@ import datetime, os
     
 forecast_mode = 1
 refday_to_start = 0 
-number_of_runs = 4 
+number_of_runs = 2 
 
 #Data de início e fim se forecast_mode = 0
-start = datetime.date(2023,3,25)
-end = datetime.date(2023,3,28)
+start = datetime.date(2023,5,17)
+end = datetime.date(2023,5,19)
 
 dirpath = os.getcwd()
 
@@ -47,15 +47,15 @@ f_min_meteo = 1000000
 f_min_hydro = 100000
 f_min_wp = 1000000
 
-number_of_meteo = 1
+number_of_meteo = 2
 dir_meteo = [0]*number_of_meteo
 file_name_meteo = [0]*number_of_meteo
 
 dir_meteo [0] = (r"D:\WRF_INPE\Backup")
 file_name_meteo [0] = "wrf.hdf5"
 
-#dir_meteo [1]= (r"D:\GFS\Backup")
-#file_name_meteo[1] = "gfs.hdf5"
+dir_meteo [1]= (r"D:\GFS\Backup")
+file_name_meteo[1] = "gfs.hdf5"
 
 number_of_hydro = 4
 dir_hydro = [0]*number_of_hydro

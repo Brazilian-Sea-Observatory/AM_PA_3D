@@ -6,6 +6,8 @@ DESCRIPTION               : Average
 COORD_X                   : -55.5039
 COORD_Y                   : -1.936
 DISCHARGE_UNIFORM         : 1
+SPATIAL_EMISSION          : Line
+SPATIAL_FILE              : ..\GeneralData\BoundaryConditions\Rios\Amazonas.lin
 !DEFAULT_FLOW_VALUE        : 200000
 DATA_BASE_FILE            : ..\GeneralData\BoundaryConditions\Rios\SerieVazao_Amazonas.dat
 FLOW_COLUMN               : 2

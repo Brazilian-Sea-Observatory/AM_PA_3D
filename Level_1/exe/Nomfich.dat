@@ -1,4 +1,4 @@
-IN_BATIM                  : ..\GeneralData\DigitalTerrain\AM_PA_GridData_average_ilhas_Smoothed_v1_v01.dat
+IN_BATIM                  : ..\GeneralData\DigitalTerrain\AM_PA_GridData_average_ilhas_Smoothed_v2.dat
 ROOT                      : ..\res
 ROOT_SRT                  : ..\res\Run2\
 SURF_DAT                  : ..\data\Atmosphere_2.dat
